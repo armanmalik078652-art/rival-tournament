@@ -1,0 +1,8 @@
+{
+  "name": "Game Revival Tournament",
+  "short_name": "GameRevival",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ff0000"
+}
