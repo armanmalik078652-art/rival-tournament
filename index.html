@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>GAME REVIVAL TOURNAMENT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+  <div class="hero">
+    <h1>🔥 GAME REVIVAL</h1>
+    <h2>TOURNAMENT</h2>
+    <button id="registerBtn">Register / Join Now</button>
+  </div>
+
+  <div class="card">
+    <h3>Rules</h3>
+    <ul>
+      <li>Game Type: Multi-Game (Free Fire / BGMI / COD)</li>
+      <li>Fair Play Mandatory</li>
+      <li>No Hacking / No Cheat</li>
+      <li>Emulator Not Allowed</li>
+      <li>Organizer Decision = Final</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Tournament Details</h3>
+    <p><b>Date:</b> 10 December 2025</p>
+    <p><b>Time:</b> 6:00 PM</p>
+    <p><b>Entry Fee:</b> ₹30</p>
+    <p><b>Prize Pool:</b> ₹1000+</p>
+  </div>
+
+  <div class="card">
+    <h3>Bracket</h3>
+    <input id="teamCount" type="number" value="16" min="2" max="48">
+    <button onclick="generateBracket()">Generate Bracket</button>
+    <div id="bracket"></div>
+  </div>
+
+  <div class="card">
+    <h3>Official Contact</h3>
+    <a href="https://instagram.com/rivaltournament07" target="_blank">
+      @rivalt
